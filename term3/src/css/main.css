@@ -1,0 +1,341 @@
+/* Universal Styling */
+/* --Fonts */
+/* ----Primary */
+.Abel {
+    font-family: 'Abel', serif;
+    src: url('../Assets/Fonts/Abel/Abel-Regular.ttf');
+}
+
+/* ----Secondary & Tertiary */
+.Rye {
+    font-family: 'Rye', serif;
+    src: url('../Assets/Fonts/Rye/Rye-Regular.ttf');
+}
+
+.Lobster {
+    font-family: 'Lobster', sans-serif;
+    src: url('../Assets/Fonts/Lobster/Lobster-Regular.ttf');
+}
+
+/* --Colours */
+.beige {
+    color: #f8f7f2;
+}
+
+.brown {
+    color: #3d1617;
+}
+
+.beige_bg {
+    background-color: #f8f7f2;
+}
+
+.brown_bg {
+    background-color: #3d1617;
+}
+
+.inline {
+    display: inline;
+}
+
+.Right {
+    float: right;
+}
+
+.Left {
+    float: left;
+}
+
+/* Navbar */
+.nav_bg {
+    height: 180px;
+    width: 100%;
+
+    padding-top: 15px;
+
+    background-color: #f8f7f2;
+}
+
+.nav_link {
+    color: #3d1617 !important;
+
+    margin-right: 30px;
+    width: 100px;
+}
+
+.nav_link:hover {
+    color: #2d397e !important;
+}
+
+/* Footer */
+
+.footer_bg {
+    height: 150px;
+    width: 100%;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 65px;
+
+    background-color: #f8f7f2;
+}
+
+/* Pages */
+/* --All Pages */
+#btnLogin {
+    border: none;
+    background-color: #f8f7f2;
+
+    font-size: xx-large;
+}
+
+#btnSignUp {
+    border: none;
+    background-color: #f8f7f2;
+
+    font-size: xx-large;
+}
+
+.login_bg {
+    height: 50px;
+    width: 100%;
+
+    background-color: #f8f7f2;
+}
+
+/* --Landing Page */
+.CarouselImg {
+    height: 350px;
+}
+
+.CarouselHeading {
+    font-size: xx-large;
+}
+
+.CarouselText {
+    font-size: large;
+}
+
+.IceCreamImg {
+    width: 80%;
+    height: auto;
+}
+
+.ItemDescSmall {
+    height: auto;
+    width: 90%;
+}
+
+.btnItem {
+    height: auto;
+    width: auto;
+
+    padding: 5px 10px 5px 10px;
+
+    margin-left: 42%;
+    margin-top: 10px;
+
+    border: 3px solid #3d1617;
+    border-radius: 25px;
+
+    background-color: #f8f7f2;
+
+    font-size: large;
+}
+
+.btnItem:hover {
+    background-color: #3d1617;
+    color: #f8f7f2;
+}
+
+.aAddToCart {
+    text-decoration: none;
+    color: #3d1617;
+}
+
+.IceCreamImg:hover {
+    border: 5px solid #3d1617;
+}
+
+.SelectedImg {
+    width: 50%;
+    height: auto;
+}
+
+/* Single Item Page */
+.SingleImg {
+    height: 600px;
+    width: 600px;
+    border: 10px solid #3d1617;
+    border-radius: 5%;
+}
+
+#SelectFlavours {
+    padding: 5px;
+}
+
+#SelectSize {
+    padding: 5px;
+}
+
+.CheckLabel {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/* Admin page */
+.OrderItem {
+    height: 250px;
+}
+
+.stockInput {
+    width: 75px;
+}
+
+ul,
+li {
+    display: inline-block;
+}
+
+#btnAddItem {
+    padding: 10px 30px 10px 30px;
+
+    border-radius: 15px;
+
+    background-color: #f8f7f2;
+    border: 3px solid #3d1617;
+
+    font-size: large;
+}
+
+.AdminForm {
+    font-size: large;
+}
+
+.AdminInput {
+    border: 2px solid #3d1617;
+    border-radius: 25px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.StockLeft {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+    padding-left: 10px;
+
+    border: 2px solid #3d1617;
+
+    border-right: 0px;
+}
+
+.StockMid {
+    padding-left: 10px;
+
+    border: 2px solid #3d1617;
+}
+
+.StockRight {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+    padding-left: 10px;
+
+    border: 2px solid #3d1617;
+
+    border-left: 0px;
+}
+
+.btnConfirmCancel {
+    padding: 5px 20px 5px 20px;
+
+    border-radius: 15px;
+
+    background-color: #f8f7f2;
+    border: 3px solid #3d1617;
+
+    font-size: large;
+
+    margin-top: 10px;
+}
+
+/* Checkout */
+.ConfirmDiv {
+    margin-bottom: 15px;
+}
+
+#ConfirmOrder {
+    background-color: #f8f7f2;
+    border: 5px solid #3d1617;
+
+    width: 475px;
+
+    padding: 25px;
+
+    border-radius: 15%;
+}
+
+.BillingInput {
+    border: 2px solid #3d1617;
+    border-radius: 15px;
+
+    padding: 10px;
+
+    width: 300px;
+}
+
+#btnConfirm {
+    font-size: large;
+    width: 150px;
+
+    border-radius: 15px;
+}
+
+#btnCancel {
+    font-size: large;
+    width: 100px;
+
+    border-radius: 15px;
+}
+
+#btnAdmin_left {
+    border: 3px solid #3d1617;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    border-right: none;
+}
+
+#btnAdmin_right {
+    border: 3px solid #3d1617;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.ItemFont {
+    font-size: large;
+}
+
+.CheckoutTotal {
+    font-size: large;
+}
+
+#CheckoutConfirm {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    padding-left: 30px;
+    padding-right: 30px;
+
+    border-radius: 25px;
+    border: 3px solid #3d1617;
+
+    background-color: #f8f7f2;
+
+    font-size: large;
+}
